@@ -13,4 +13,3 @@ if [ "$selection" = "1" ]; then
     echo " $selection is an invalid selection"
     echo 1
 fi
-

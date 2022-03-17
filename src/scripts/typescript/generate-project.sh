@@ -1,6 +1,7 @@
 #!/bin/sh
 
 cd "$(dirname "$0")"
+cd ".."
 mkdir "$1"
 cd "$1"
 
