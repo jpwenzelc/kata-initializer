@@ -21,6 +21,8 @@ You will need to have `yarn` installed `npm install --global yarn`.
     └─ yarn.lock
 ```
 
+To run the tests you need to run `yarn jest` and it will run for all files that have the format `*.test.ts`
+
 ### Golang
 
 You will need to have `go` installed, you can find the installation page [here](https://go.dev/doc/install).
@@ -35,4 +37,8 @@ You will need to have `go` installed, you can find the installation page [here](
     └─ go.mod
         └─ go.sum
 ```
+
 _to read more about this project layout please reference [this](https://github.com/golang-standards/project-layout)._
+
+to run the tests you need to run `go test ./...` and it will run for all files that have the format `*_test.go` and only
+for the functions that have a format name of `Test*`
