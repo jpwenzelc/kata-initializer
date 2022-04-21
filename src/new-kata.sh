@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 : "${1?"Please add a project name: [ Usage: $0 PROJECT_NAME ]"}"
 
